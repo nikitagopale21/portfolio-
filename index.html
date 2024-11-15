@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nikita Gopale</h1>
+    </header>
+    <main>
+        <div class="profile">
+            <img src="nikki.jpg" alt="my photo">
+            <p>Nikita Anil Gopale</p>
+            <p>Btech Mechatronics Engineering</p>
+            <hr style="border: 1px solid #4df05b; width: 80%; margin-top: 10px;">
+            <p style="font-size: 15px; text-align: center;" s >
+                Student at Sanjivani College of Engineering, Kopargaon. <br>
+                B. Tech in Mechatronics Engineering
+                Sanjivani College of Engineering, Kopargaon.<br>
+                <span style="font-size: 0.8em; margin-left: 10px;">11/2022 - Present&nbsp;&nbsp;8.7</span><br>
+                Higher Secondary Education-
+                Mahila Mahavidyalaya, Kopargaon.<br>
+                <span style="font-size: 0.8em; margin-left: 10px;">2022&nbsp;&nbsp;72.33%</span><br>
+                Secondary Education-
+                Janta Vidyalaya Mukhed.<br>
+                <span style="font-size: 0.8em; margin-left: 10px;"> 2020&nbsp;&nbsp;89.40%</span><br>
+            </p>
+            
+        </div>
+        
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'home')">Home</button>
+            <button class="tab-button" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tab-button" onclick="openTab(event, 'certifications')">Certifications</button>
+            <button class="tab-button" onclick="openTab(event, 'achievements')">Achievements</button>
+            <button class="tab-button" onclick="openTab(event, 'Contact Me')">Contact Me</button>
+        </div>
+        
+        <!-- Tabs Content -->
+        <div id="home" class="tab-content" style="display: block;">
+            <h2>About Me</h2>
+            <p>Welcome to my profile! I'm Nikita Anil Gopale, currently pursuing a Bachelor's degree in Mechatronics Engineering. With a passion for design and technology, I have gained experience in software such as Blender, SolidWorks, and Autodesk Fusion 360. I enjoy taking on challenges and am constantly seeking new ways to grow and improve my skills. In my projects, I focus on both creativity and practicality, aiming to produce efficient and visually appealing designs.</p>
+            <p>Outside of academics and design, I enjoy exploring innovative technologies, engaging in hands-on projects, and expanding my knowledge in automation and engineering. Thank you for visiting my profile!</p>
+        </div>
+
+        <div id="skills" class="tab-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Intermediate in Blender</li>
+                <li>Intermediate in SolidWorks</li>
+                <li>Autodesk Fusion 360</li>
+            </ul>
+        </div>
+
+        <div id="projects" class="tab-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><h2>Using Blender Software Designs</h2>
+                    <h3>Café</h3>
+                    <img src="caffee.png" alt="Café design">
+                </li>
+                <li>
+                    <h3>Kitchen</h3>
+                    <img src="kitchen.png" alt="Kitchen design">
+                </li>
+                <li>
+                    <h3>Living Room</h3>
+                    <img src="room1.png" alt="Living room design 1">
+                    <img src="room2.png" alt="Living room design 2">
+                </li>
+                <li><h2>SolidWorks</h2>
+                    <h3>Car Model</h3>
+                    <video controls src="car model.mp4"></video>
+                </li>
+                <li><h2>Autodesk Fusion 360</h2>
+                    <h3>Lamp</h3>
+                    <img src="lamp.png" alt="Lamp design">
+                </li>
+                <li>
+                    <h3>Pot</h3>
+                    <img src="pot1.png" alt="Pot design 1">
+                    <img src="pot2.png" alt="Pot design 2">
+                    <video controls src="pot2.mp4"></video>
+                </li>
+                <li>
+                    <h3>Pen Stand</h3>
+                    <img src="penstand.png" alt="Pen stand design">
+                </li>
+                <li>
+                    <h3>Accident Prevention at Railway Crossings and Tunnels</h3>
+                    <p>This project utilizes ultrasonic sensors to detect approaching trains and automatically close crossing gates. In tunnels, the sensors activate buzzers to alert people on both sides of the tunnel to prevent accidents.</p>
+                </li>
+                <li>
+                    <h3>Automatic Curtains for Onion Warehouse</h3>
+                    <p>This project uses humidity sensors to automatically open or close curtains based on humidity levels. A motor mechanism is designed to control the curtain movement for optimal storage conditions.</p>
+                </li>
+                <li>
+                    <h3>Akruti Competition Design</h3>
+                    <p>This project involved using SolidWorks to create a multipurpose adjustable storage box that serves as both a storage solution and a seating option.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="certifications" class="tab-content">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified SOLIDWORKS Associate (CSWA)</li>
+                <li>Participated in Akruti Competition</li>
+            </ul>
+        </div>
+
+        <div id="achievements" class="tab-content">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Certified SOLIDWORKS Associate (CSWA)</li>
+            </ul>
+        </div>
+
+        <!-- Corrected "Contact Me" Section -->
+        <div id="Contact Me" class="tab-content">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:nikitagopale508@gmail.com">nikitagopale508@gmail.com</a></p>
+            <p>Mobile: <a href="tel:+919322550276">9322550276</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/nikita-gopale-7120b826a" target="_blank">Nikita Gopale</a></p>
+            <p>Place: Mukhed, Tal Yeola, Dist Nashik.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nikita Gopale. All rights reserved.</p>
+    </footer>
+    
+    <!-- Inline JavaScript for Tabs -->
+    <script>
+        function openTab(event, tabId) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll(".tab-content");
+            tabContents.forEach(content => content.style.display = "none");
+
+            // Remove active class from all tab buttons
+            const tabButtons = document.querySelectorAll(".tab-button");
+            tabButtons.forEach(button => button.classList.remove("active"));
+
+            // Show the selected tab content and add active class to the clicked button
+            document.getElementById(tabId).style.display = "block";
+            event.currentTarget.classList.add("active");
+        }
+
+        // Display the Home tab by default
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector(".tab-button").click();
+        });
+    </script>
+</body>
+</html>
