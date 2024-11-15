@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #80ff80, #4CAF50); /* Original Green gradient */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #8B4513; /* Marron border for header */
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #0b0152;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #000000;
+}
+
+/* Tabs Navigation */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab-button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+.tab-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #80ff80;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* List and Links */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Marron and Pink accents */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #8B4513; /* Marron line */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile p span {
+    color: #4ade45; /* Deep pink accent for dates and percentages */
+}
+
+/* Image Style in Projects */
+.tab-content img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Video Style in Projects */
+.tab-content video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
